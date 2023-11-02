@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .section {
+  margin: 20px;
+  margin-top: 160px;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: white;
+  padding: 20px;
+}
+body main .section img {
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 100px;
+}
+body main .section img:hover {
+  border: 7px solid #00b846;
+  transition: 1s;
+}
+body main .section h2 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+}
+body main .section p {
+  color: #00b846;
+  text-align: center;
+  padding-top: 10px;
+}
+body main .section svg {
+  margin-top: 20px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+body main .section svg:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1000px) {
+  body main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body main .section {
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
